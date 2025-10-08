@@ -42,11 +42,18 @@ section:nth-child(2) div div {
   flex: 0 0 250px;
   background-color: white;
   margin: 0.5rem;
+  border-radius: 10px;
+  box-shadow: 0px 1px 3px black;
 }
 
 /* Question 3 */
 section:nth-child(2) p {
   padding: 0.5rem 1rem
+}
+
+section:nth-child(2) img {
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
 }
 
 
