@@ -4,6 +4,7 @@ body {
   display: flex;
   flex: 1;
   flex-direction: column;
+  height:inherit;
 }
 
 * {
@@ -11,8 +12,9 @@ body {
 }
 
 /* Question 1 */
-div {
+main > div {
   display:flex;
+  height: 100%;
 }
 
 div section {
