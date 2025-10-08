@@ -1,7 +1,11 @@
 body {
   font-family: "Lato", "Helvetica Neue", "Helvetica", sans-serif;
   margin: 0;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
 }
+
 * {
   box-sizing: border-box; 
 }
@@ -58,4 +62,11 @@ section:nth-child(2) img {
   border-bottom-left-radius: 0;
 }
 
+/* Question 4 */
+main {
+  flex: 1;
+}
 
+html {
+  height: 100%
+}
